@@ -74,7 +74,7 @@ Azure 机器学习设计器提供了一个拖放界面，可用于定义工作�
 1. 将数据的输出连接到新组件的输入。
 1. 将“Normalize numerical columns”组件拖放到画布上的“Remove Empty Rows”下方 。 
 1. 将上一个组件的输出连接到新组件的输入。
-1. 将“Train a Decision Tree Classifier Model”组件拖放到画布上的“Normalize numerical columns”下方 。
+1. 将“Train a Decision Tree Classifier Model”组件拖放到画布上的“Remove Empty Rows”下方 。
 1. 将上一个组件的输出连接到新组件的输入。 
 1. 提交管道。 
 1. 创建新试验并将其命名为 `diabetes-designer-pipeline`。 
