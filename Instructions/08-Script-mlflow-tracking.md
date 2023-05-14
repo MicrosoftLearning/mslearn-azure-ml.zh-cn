@@ -77,7 +77,7 @@ MLflow 是用于管理端到端机器学习生命周期的开源平台。 MLflow
 
 拥有所有必要的资源后，可以运行笔记本来提交作业，该作业使用 MLflow 跟踪模型参数、指标和项目。
 
-1. 打开 Labs/08/Use MLflow 跟踪 jobs.ipynb 笔记本。
+1. 打开 Labs/08/Use MLflow to track jobs.ipynb 笔记本。
 
     > 如果出现要求进行身份验证的通知，选择“验证”并按照必要的步骤进行操作。 
 
