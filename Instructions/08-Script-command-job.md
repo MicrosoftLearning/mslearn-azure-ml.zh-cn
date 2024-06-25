@@ -114,9 +114,10 @@ lab:
 
     若要成功运行脚本，需要指定训练数据参数的值。 让我们通过引用与训练脚本存储在同一文件夹中的 diabetes.csv 文件来执行此操作。
 
-1. 在终端中运行以下命令：
+1. 在终端运行以下命令：
 
     ```
+    cd azure-ml-labs/Labs/08/src/
     python train-model-parameters.py --training_data diabetes.csv
     ```
 
