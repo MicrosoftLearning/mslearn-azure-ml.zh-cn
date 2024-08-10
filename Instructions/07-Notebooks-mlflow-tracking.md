@@ -25,7 +25,7 @@ lab:
 1. 在浏览器中，打开 Azure 门户 (`https://portal.azure.com/`)，并登录 Microsoft 帐户。
 1. 选择页面顶部搜索框右侧的 \[>_] (Cloud Shell) 按钮。 这会打开门户底部的 Cloud Shell 窗格。
 1. 如果系统询问，请选择“Bash”。 首次打开 Cloud Shell 时，系统可能会要求你选择要使用的 shell 类型（Bash 或 PowerShell） 。
-1. 如果系统要求你为 Cloud Shell 创建存储，请确认已指定正确的订阅，然后选择“创建存储”。 等待存储创建完成。
+1. 检查是否指定了正确的订阅以及是否选择了**不需要存储帐户**。 选择“应用”。
 1. 在终端，输入以下命令以克隆此存储库：
 
     ```azurecli
