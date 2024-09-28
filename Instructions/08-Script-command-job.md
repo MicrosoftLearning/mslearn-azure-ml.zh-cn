@@ -26,7 +26,7 @@ lab:
 1. 在浏览器中，打开 Azure 门户 (`https://portal.azure.com/`)，并登录 Microsoft 帐户。
 1. 选择页面顶部搜索框右侧的 \[>_] (Cloud Shell) 按钮。 这会打开门户底部的 Cloud Shell 窗格。
 1. 如果系统询问，请选择“Bash”。 首次打开 Cloud Shell 时，系统可能会要求你选择要使用的 shell 类型（Bash 或 PowerShell） 。
-1. 检查是否指定了正确的订阅以及是否选择了**不需要存储帐户**。 选择“应用”。
+1. 检查是否指定了正确的订阅以及是否选择了“**不需要存储帐户**”。 选择“应用”。
 1. 在终端，输入以下命令以克隆此存储库：
 
     ```azurecli
@@ -89,6 +89,13 @@ lab:
 1. 创建新文件后，应自动打开脚本。 浏览该文件，并注意它包含与笔记本相同的代码。
 1. 选择笔记本顶部的 &#9655;&#9655; 图标，以在终端中保存并运行脚本。
 1. 脚本由命令 python train-classification-model.py 启动，并且输出应显示在命令下方。
+
+   > **备注：** 如果脚本返回 libstdc++6 的 ImportError，请在终端中运行以下命令，然后再次运行脚本：
+   > ```bash
+   > sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+   > sudo apt-get update
+   > sudo apt-get upgrade libstdc++6
+   > ```
 
 ## 使用终端测试脚本
 
