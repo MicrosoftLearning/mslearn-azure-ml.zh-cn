@@ -1,3 +1,11 @@
+#README
+
+We've turned off the ability to report issues directly on this repo and do not monitor PRs.
+
+Provide feedback here: https://aka.ms/provide-feedback
+
+Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
+
 ## Azure 机器学习 (v2) 的动手练习
 
 此存储库包含探索 Azure 机器学习的 Microsoft 学习路径的动手实验室练习。 学习路径由 Microsoft Learn 上的自定进度模块组成。 这些实验室配合教材提供，你可以使用其描述的方法进行练习。
