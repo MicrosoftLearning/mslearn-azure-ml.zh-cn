@@ -69,7 +69,7 @@ lab:
         <li>在 Azure 机器学习工作室中，导航到“<b>计算</b>”页，然后选择“<b>计算实例</b>”选项卡下的“<b>+新建</b>”。</li>
         <li>为计算实例指定唯一的名称，然后选择 <b>Standard_DS11_v2</b> 作为虚拟机大小。</li>
         <li>选择“查看 + 创建”，然后选择“创建” 。</li>
-        <li>接下来，选择“<b>计算群集</b>”选项卡，然后选择<b>+“新建”</b>。</li>
+        <li>接下来，选择“<b>计算群集</b>”选项卡，然后选择“<b>+ 新建</b>”。</li>
         <li>选择与创建工作区的区域相同的区域，然后选择 <b>Standard_DS11_v2</b> 作为虚拟机大小。 选择<b>下一步</b>。</li>
         <li>为群集指定唯一的名称，然后选择“<b>创建</b>”。</li>
         <li>从 https://github.com/MicrosoftLearning/mslearn-azure-ml/raw/refs/heads/main/Labs/09/data/diabetes.csv 下载训练数据</li>
@@ -116,7 +116,7 @@ lab:
 
     > 如果出现要求进行身份验证的通知，选择“验证”并按照必要的步骤进行操作。
 
-1. 验证笔记本是否使用“Python 3.8 - AzureML”内核。
+1. 验证笔记本是否使用 **Python 3.10 - AzureML** 内核。
 1. 运行笔记本中的所有单元格。
 
 ## 删除 Azure 资源
